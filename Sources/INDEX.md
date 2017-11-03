@@ -11,17 +11,8 @@ scalability, and robustness claims of the TAP architecture and its variations ar
 scenarios, namely, First-person shooters (FPSs), real-time strategy (RTS) games, and role-playing games (RPG), where they are
 shown to exhibit plausible adaptive behavior.
 
-## Breeding Terrains with Genetic Terrain Programming: The Evolution of Terrain Generators
-* ID: 125714 
-* ABSTRACT: Although a number of terrain generation techniques have been proposed during the last few years, all of them have some
-key constraints. Modelling techniques depend highly upon designer’s skills, time, and effort to obtain acceptable results, and cannot be used to automatically generate terrains. The simpler methods allow only a narrow variety of terrain types and offer
-little control on the outcome terrain. The Genetic Terrain Programming technique, based on evolutionary design with Genetic
-Programming, allows designers to evolve terrains according to their aesthetic feelings or desired features. This technique evolves Terrain Programmes (TPs) that are capable of generating a family of terrains—different terrains that consistently present the
-same morphological characteristics. This paper presents a study about the persistence of morphological characteristics of terrains
-generated with different resolutions by a given TP. Results show that it is possible to use low resolutions during the evolutionary
-phase without compromising the outcome, and that terrain macrofeatures are scale invariant.
 
-## Combining AIMethods for Learning Bots in a Real-Time Strategy Game
+## Combining AI Methods for Learning Bots in a Real-Time Strategy Game
 * ID: 129075 
 * ABSTRACT: We describe an approach for simulating human game-play in strategy games using a variety of AI techniques, including simulated annealing, decision tree learning, and case-based reasoning. We have implemented an AI-bot that uses these techniques to form a novel approach for planning fleet movements and attacks in DEFCON, a nuclear war simulation strategy game released in
 2006 by Introversion Software Ltd. The AI-bot retrieves plans from a case-base of recorded games, then uses these to generate
@@ -31,16 +22,6 @@ bombing targets to planes and opponent cities to missiles.We describe how our AI
 performed in order to determine an optimal configuration for it. With this configuration, our AI-bot beats Introversion’s finite
 state machine automated player in 76.7% of 150 matches played.We briefly introduce the notion of ability versus enjoyability and
 discuss initial results of a survey we conducted with human players.
-
-## A Shortest-Path Lyapunov Approach for Forward Decision Processes
-* ID: 162450 
-* ABSTRACT: In previous work, attention was restricted to tracking the net using a backward method that knows the target point beforehand
-(Bellmans’s equation), this work tracks the state-space in a forward direction, and a natural form of termination is ensured by an
-equilibrium point p∗ (M(p∗) = S < ∞ and p∗• = ∅).We consider dynamical systems governed by ordinary difference equations
-described by Petri nets. The trajectory over the net is calculated forward using a discrete Lyapunov-like function, considered
-as a distance function. Because a Lyapunov-like function is a solution to a difference equation, it is constructed to respect the
-constraints imposed by the system(a Euclidean metric does not consider these factors). As a result, we prove natural generalizations
-of the standard outcomes for the deterministic shortest-path problem and shortest-path game theory.
 
 ## Single- versus Multiobjective Optimization for Evolution of Neural Controllers in Ms. Pac-Man
 * ID: 170914 
@@ -55,10 +36,6 @@ both training and testing processes. In general, therefore, it seems that PAESNe
 PAESNet M successfully reduces the runtime operation and complexity of ANN by minimizing the number of hidden neurons
 needed in hidden layer and also it provides better generalization capability for controlling the game agent in a nondeterministic
 and dynamic environment.
-
-## Artificial Intelligence for Computer Games
-* ID: 251652 
-* ABSTRACT: EDITORIAL
 
 ## Artificial Intelligence in Video Games: Towards a Unified Framework
 * ID: 271296 
