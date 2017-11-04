@@ -1,0 +1,89 @@
+{
+  "articles": [
+    {"id": 4939261,
+     "title":"Narrow Artificial Intelligence with Machine Learning for Real-Time Estimation of a Mobile Agent’s Location Using Hidden Markov Models",
+     "description":"Machine Learning real time agent pathfinding algorithm using Hidden Markov Model",
+     "tags":["Machine Learning","Pathfinding","Mobile agent"]
+    },
+    {"id": 107160,
+     "title":"Tactical Agent Personality",
+     "description":"Building AI behaviour using weighted nework to model",
+     "tags":["Agent","Neural Network","Beahvoiur"]
+    },
+    {"id": 129075,
+     "title":"Combining AI Methods for Learning Bots in a Real-Time Strategy Game",
+     "description":"Using machine learning to improve bot perfromance in a RTS",
+     "tags":["AI","Behaviour"]
+    },
+      {"id": 170914,
+     "title":"Single- versus Multiobjective Optimization for Evolution of Neural Controllers in Ms. Pac-Man",
+     "description":"Optimize neural network model for Ms.Pacman",
+     "tags":["Performance","Machine Learning"]
+    },
+    {"id": 271296,
+     "title":"Artificial Intelligence in Video Games: Towards a Unified Framework",
+     "description":"Building a framewor for AI",
+     "tags":["AI","Future"]
+    },
+      {"id": 436732,
+     "title":"Fine-Tuning Parameters for Emergent Environments in Games Using Artificial Intelligence",
+     "description":"AI controlled emerging environments",
+     "tags":["Behaviour","Enviroment"]
+    },
+      {"id": 456169,
+     "title":"Enhancing Artificial Intelligence on a RealMobile Game",
+     "description":"Mobile low resource machine learning AI strategy",
+     "tags":["Performance","Machine Learning"]
+    },
+      {"id": 576201,
+     "title":"Mining Experiential Patterns from Game-Logs of Board Game",
+     "description":"Machine Learning data mining for games",
+     "tags":["Machine Learning"]
+    },
+      {"id": 578269,
+     "title":"The Brigade Renderer: A Path Tracer for Real-Time Games",
+     "description":"Path tracer software",
+     "tags":["Pathfinding"]
+    },
+      {"id": 670459,
+     "title":"Fractal Analysis of Stealthy Pathfinding Aesthetics",
+     "description":"Aesthetic pathfinding in random generated scenarios",
+     "tags":["Pathfinding"]
+    },
+      {"id": 736138,
+     "title":"A Comprehensive Study on Pathfinding Techniques for Robotics and Video Games",
+     "description":"Pathfinding Robotics on AI",
+     "tags":["Pathfinding"]
+    },
+      {"id": 745219,
+     "title":"Performance Simulations of Moving Target Search Algorithms",
+     "description":"Model to increase performance on moving target search by bots",
+     "tags":["Performance","AI"]
+    },
+      {"id": 837095,
+     "title":"Games and Agents: Designing Intelligent Gameplay",
+     "description":"Game Design + AI difficulties",
+     "tags":["AI","Behaviour","Game Design"]
+    },
+      {"id": 839721,
+     "title":"Development of a Car Racing Simulator Game Using Artificial Intelligence Techniques",
+     "description":"AI in driving. AI in games history",
+     "tags":["AI","Games","Driving","Behaviour"]
+    },
+      {"id": 910819,
+     "title":"A Multiagent Potential Field-Based Bot for Real-Time Strategy Games",
+     "description":"Pathfinding + Beaviour for RTS games",
+     "tags":["Pathfinding","Behaviour","RTS"]
+    },
+      {"id": 5216861,
+     "title":"Turn-Based War Chess Model and Its Search Algorithm per Turn",
+     "description":"Model for behavoiur in war chess",
+     "tags":["AI","Behaviour","Algorithm"]
+    },
+      {"id": 7090757,
+     "title":"Enhancing Video Games Policy Based on Least-Squares Continuous Action Policy Iteration: Case Study on StarCraft Brood War and Glest RTS Games and the 8 Queens Board Game",
+     "description":"Algorithm",
+     "tags":["TBS","AI","Algorithm"]
+    }
+  ]
+}
