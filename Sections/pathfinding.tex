@@ -1,0 +1,18 @@
+\subsection{Pathfinding}
+
+
+Pathfinding is a technique or a process carried by a software running in a computer from which the shortest path or route between two points is extrapolated. Pathfinding is, not only important in video games, but also in other areas such as delivery, transport services and intelligent storage among others. Pathfinding algorithms are usually heavily based on the Dijkstra's algorithm[5] which implies what follows: Let the node starting be X. Let the distance of node Y be the distance from X to Y. Dijkstra's algorithm will assign some initial distance values and will try iteratively to improve them step by step.
+
+\vspace{2mm}
+However there are other approaches using different techniques.
+
+
+
+\subsubsection{Using Potential Fields}
+In 1985, Ossama Khatib discussed a new concept in regards a real-time obstacle avoidance for manipulators and mobile Robots. He named it Artificial Potential Fields[6]. In 2008, Johan Hagelback et al.[7] used it to create a Multi-agent Potential Field-based Bot for Real-Time Strategy Games(RTS) in which objects in the map where assigned charges (like magnetic chargers positive or negative) and such charges were used as forces to attract the agents to specific destination or to repel such agents to avoid collisions or to delimit the terrain.
+
+\vspace{2mm}
+They proposed two-different scenarios using Open real-time strategy (ORTS) engine to deploy the bot. In the first scenario the task of the bot was to recollect as many resource as possible in a limited amount of time. To do so Johan Hagelback et al. had 20 agents (workers) using a finite state machine (FSM) to define their behaviour and assigned the charges to the agents, to the resource gathering point, the base were resources had to be delivered and "sheep" moving around the map to provide moving obstacles. Even though the results shown that the bot was prone to disconnect from the game in some occasions, it beat bots developed in previous years improving the average of resources gathered.
+
+\vspace{2mm}
+For the second scenario, using ORTS, the scenario was a tank game, where two player had a number of tanks and bases and the goal of the game was to destroy both enemy bases and tanks. After outlining the rules for the game agents, they assigned the charges accordingly and programmed the bot to avoid situating tanks in the middle of enemy clusters. The results of such scenario, tested against other bots, were of a 98\% of victory rate over their opponents.
