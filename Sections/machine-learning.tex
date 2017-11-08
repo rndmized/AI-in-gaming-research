@@ -21,7 +21,20 @@ In the third scenario the model was tested against a Role-Playing Game (RPG) env
 \vspace{2mm}
 TAP presents some interesting points such as high versatility and adaptation that reduces the need of specific scripting for actions escaping from more traditional approaches like Finite State Machines. TAP and SAP present a good performance and the scalability has low impact, however TTAP does not represent a better model over time and presents scalability issues as calculating the weight on the edges increments the overhead by a significant amount.
 
+\subsection{Perfect versus Imperfect Knowledge}
+As previously mentioned, in modern player-bot engagement-based video
+games, bot responses and behaviour are designed to be
+as realistic as possible. Is because of that, bots are designed to detect players just within its visibility area and not further than that. That is called Imperfect Knowledge. In games such as checkers or chess, both player and computer have complete visibility of the area (board) and all information about what is in it, thus we call this Perfect Knowledge. To provide the player with a sense of fairness it is necessary to program the bot to behave as it has imperfect knowledge. To do so several approaches make use of the principle of "neighbourhood"
 
-\subsection{Using Machine Learning to Increase Performance}
-Subsection text here.
 \vspace{2mm}
+In their article, Peter K. K. Loh and Edmond C. Prakash, evaluate the performance of the existing Moving Target Search Algorithms through simulation:
+\begin{itemize}
+	\item Basic Moving Target Search (BMTS)
+	\item Weighted Moving Target Search (WMTS)
+	\item Commitment and Deliberation Moving Target Search (CDMTS)
+\end{itemize}
+\vspace{2mm}
+After simulation the results are compared against the Abstraction Moving Target Search Algorithm (AMTS) design, proposed in their paper. When compared, AMTS outperforms the three MST algorithms, with higher exploration moves, but the lowest MTS move. However further investigation is required as scalability might become an issue. Even though it has downsides, the algorithm presents a interesting approach in the matter.
+
+\vspace{2mm}
+Another approach includes Machine Learning to learn and generate strategies to increase performance while maintaining imperfect knowledge. Beaulac and Larribe [13] proposed a model based on Hidden Markov Models to narrow down the possible locations of a hidden mobile agent and pair it with machine learning to create a heat map where "hotter" areas are more likely to be traversed by such agent and design strategies around that. To test the model, the experiments presents a simple game (pirate-themed), where the player has to reach two different points in the map. There are "parrots" that indicate to the AI if the mobile agent is in its vicinity, providing more information but still maintaining the imperfect knowledge premise. The model demonstrated its effectiveness but the model requires further adjustments. 
