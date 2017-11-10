@@ -27,7 +27,7 @@ discuss initial results of a survey we conducted with human players.
 * ID: 170914 
 * ABSTRACT: The objective of this study is to focus on the automatic generation of game artificial intelligence (AI) controllers for Ms. Pac-Man
 agent by using artificial neural network (ANN) and multiobjective artificial evolution. The Pareto Archived Evolution Strategy
-(PAES) is used to generate a Pareto optimal set of ANNs that optimize the conflicting objectives of maximizingMs. Pac-Man scores
+(PAES) is used to generate a Pareto optimal set of ANNs that optimize the conflicting objectives of maximizing Ms. Pac-Man scores
 (screen-capture mode) and minimizing neural network complexity.This proposed algorithm is called Pareto Archived Evolution
 Strategy Neural Network or PAESNet. Three different architectures of PAESNet were investigated, namely, PAESNet with fixed
 number of hidden neurons (PAESNet F), PAESNet with varied number of hidden neurons (PAESNet V), and the PAESNet with
@@ -120,8 +120,8 @@ competitive performance even with large problem spaces.
 
 ## Games and Agents: Designing Intelligent Gameplay
 * ID: 837095 
-* ABSTRACT: There is an attention shift within the gaming industry towardmore natural (long-term) behavior of nonplaying characters (NPCs).
-Multiagent system research offers a promising technology to implement cognitive intelligent NPCs.However, the technologies used
+* ABSTRACT: There is an attention shift within the gaming industry toward more natural (long-term) behavior of nonplaying characters (NPCs).
+Multiagent system research offers a promising technology to implement cognitive intelligent NPCs. However, the technologies used
 in game engines and multiagent platforms are not readily compatible due to some inherent differences of concerns. Where game
 engines focus on real-time aspects and thus propagate efficiency and central control, multiagent platforms assume autonomy of
 the agents. Increased autonomy and intelligence may offer benefits for a more compelling gameplay and may even be necessary
